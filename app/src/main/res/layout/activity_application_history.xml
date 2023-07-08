@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ApplicationHistory">
+
+    <include layout="@layout/header" />
+
+    <!-- title bar    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:text="Beneficiary History"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_bar_text"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+
+            android:src="@drawable/logout" />
+    </RelativeLayout>
+    <!--    School list cards -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <include
+            android:id="@+id/cardBHistory"
+            layout="@layout/beneficiart_history_list_card"/>
+        <!--        just empty space-->
+
+
+        <include
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            layout="@layout/beneficiart_history_list_card"
+            android:layout_width="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" />
+
+    <ImageView
+        android:id="@+id/ivBackBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="40dp"
+        android:src="@drawable/back_arrow"
+        app:tint="@color/blue" />
+
+
+</LinearLayout>

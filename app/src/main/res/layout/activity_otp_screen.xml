@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OtpScreen">
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_margin="55dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="164dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/gruhahome" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="231dp"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/gruhalogo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:textSize="@dimen/regular14sp"
+            android:textColor="@color/black"
+            android:text="@string/mobile_number"/>
+
+        <EditText
+            android:id="@+id/editTxtMobile"
+            android:enabled="false"
+            android:autofillHints="Password"
+            android:layout_width="220dp"
+            android:layout_height="46dp"
+            android:padding="5dp"
+            android:inputType="phone"
+            android:hint=" +91xxxxxxxxxx"
+            android:background="@drawable/edit_text_border"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="28dp"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/regular14sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:text="@string/enter_otp"/>
+
+        <in.aabhasjindal.otptextview.OtpTextView
+            android:layout_gravity="center"
+            android:id="@+id/otp_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            app:height="40dp"
+            app:width="40dp"
+            app:bar_enabled="true"
+            app:bar_height="2dp"
+            app:length="4"
+
+            app:otp_text_size="24dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="28dp"
+                android:text="@string/haven_t_received_otp"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/regular14sp" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="28dp"
+                android:text="@string/resend_otp"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="135dp"
+            android:layout_height="36dp"
+            android:background="@drawable/btn_blue_round"
+            android:text="@string/log_in"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/regular14sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivBackBtn"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/back_arrow"
+        app:tint="@color/blue" />
+
+</LinearLayout>

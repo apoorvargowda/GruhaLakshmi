@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Gruha Lakshmi</string>
+    <string name="govt_of_karnataka">GOVT. OF KARNATAKA</string>
+    <string name="gruhalakshmi">GRUHA LAKSHMI</string>
+    <string name="log_in">Login</string>
+    <string name="refractionist_id">CDPO ID</string>
+    <string name="password">Password</string>
+    <string name="forgot_password_new_user">Forgot Password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="logout">Logout</string>
+    <string name="register_school">Add Praja Prathinidhi</string>
+    <string name="New_Application">New Application</string>
+    <string name="Application_applied">Application applied</string>
+    <string name="select_school">Select Taluk</string>
+
+    <string name="dec_text_1">All the details I have provided are correct to the best of my knowledge. I am the head of the family/household. I hear by confirm that, if the information provided by me is found to be false at any time, I shall be bound to face any legal consequences and repay the benefits received by me under this scheme to the Government.I agree to share my Aadhaar details (Identity Information) and other information with Government for the purpose of e-KYC or Yes/No Authentication with UIDAI. I give consent to the Department to seed my data in to the database. to make payment through DBT and use it in welfare schemes of various Departments of Government.</string>
+    <string name="dec_text_2">I agree to share my Aadhaar details (Identity Information) and other information with Government for the purpose of e-KYC or Yes/No Authentication with UIDAI. I give consent to the Department to seed my data in to the database. to make payment through DBT and use it in welfare schemes of various Departments of Government.</string>
+
+    <string-array name="sph1">
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="caste">
+        <item>Select Caste</item>
+        <item>ST</item>
+        <item>SC</item>
+        <item>OBC</item>
+        <item>minority</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="ChooseRole">
+        <item>CDPO</item>
+        <item>Praja Prathinidhi</item>
+    </string-array>
+
+    <string name="eng">English</string>
+    <string name="kan">ಕನ್ನಡ</string>
+
+    <string-array name="scheme_elegi">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string name="title_activity_ration_list">RationList</string>
+    <string name="tax_gst">Please Note that if you are paying Income Tax and filling GST Returns you are not meeting scheme guildelines</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="enter_ration_card_number">Enter Ration card Number</string>
+    <string name="category">Category</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="bank_account_details_of_the_female_head_of_the_family_to_receive_the_scheme_amount">Bank Account details of the Female Head of the Family to receive the Scheme amount</string>
+    <string name="aadhaar_linked_bank">Aadhaar linked Bank</string>
+    <string name="other_bank">Other Bank</string>
+    <string name="next">Next</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="haven_t_received_otp">Haven\'t received OTP? </string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="applicant_bank_details">Applicant Bank Details</string>
+    <string name="ifsc_code">IFSC Code</string>
+    <string name="fetch">Fetch</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="bank_branch">Bank Branch</string>
+    <string name="bank_account_number">Bank Account Number</string>
+    <string name="re_enter_bank_account_number">Re-enter Bank Account Number</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="new_application">New Application</string>
+    <string name="ready_for_submission">Ready for Submission</string>
+    <string name="husband_details_of_the_head_of_the_family">Husband Details of the Head of the family</string>
+    <string name="unmarried">Unmarried</string>
+    <string name="seperated">Seperated</string>
+    <string name="deceased">Deceased</string>
+    <string name="add_aadhaar_number_and_name">Add Aadhaar Number and Name</string>
+    <string name="husband_name_as_per_aadhaar">Husband Name as per Aadhaar</string>
+    <string name="aadhaar_number">Aadhaar number</string>
+    <string name="aadhar_copy_of_head_of_family">Aadhar Copy of Head of Family</string>
+    <string name="ration_card_copy">Ration Card Copy</string>
+    <string name="upload_files">Upload Files</string>
+    <string name="bank_passbook_copy">Bank Passbook Copy</string>
+    <string name="aadhar_copy_of_husband">Aadhar Copy of Husband</string>
+    <string name="declaration">Declaration</string>
+    <string name="_1_i_and_my_husband_are_paying_income_tax">1.I and my Husband are paying Income Tax</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="_2_i_and_my_husband_are_filing_gst_returns">2. I and my Husband are filing GST returns</string>
+    <string name="submit">Submit</string>
+    <string name="ration_card_number">Ration Card Number</string>
+    <string name="application_status">Application Status</string>
+    <string name="ekyc_of_husband">eKYC of Husband</string>
+    <string name="complete_ekyc">Complete eKYC</string>
+    <string name="verify">Verify</string>
+    <string name="applicant_photo">Applicant Photo</string>
+    <string name="invalid_RC">Invalid RC Number,Please enter the correct RC Number</string>
+    <string name="rc_notverified">RC Not Verified, Please click on Verify button</string>
+    <string name="or">(Or)</string>
+    <string name="invalidMobile">Mobile number not correct</string>
+</resources>

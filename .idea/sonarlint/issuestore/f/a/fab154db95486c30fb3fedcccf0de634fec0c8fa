@@ -1,0 +1,21 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(É„›ûÿÿÿÿ
+w
+java:S1488&"bImmediately return this expression instead of assigning it to the temporary variable "viewHolder".(Ûóşx
+l
+java:S11047"QMake txtRc a static final constant or non-public and provide accessors if needed.(Õş·Éüÿÿÿÿ
+p
+java:S11047"UMake txtaadhar a static final constant or non-public and provide accessors if needed.(Õş·Éüÿÿÿÿ
+m
+java:S11048"RMake subBtn a static final constant or non-public and provide accessors if needed.(îñ£òøÿÿÿÿ
+h	java:S116"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õœú¯şÿÿÿÿ
+Q	java:S125."<This block of commented-out lines of code should be removed.(µ¥¦
+B
+java:S16597"'Declare "txtaadhar" on a separate line.(Õş·Éüÿÿÿÿ
+@
+java:S1068"+Remove this unused "context" private field.(êİç
+G
+java:S1068"1Remove this unused "isForDistrict" private field.(ş¢‘
+B
+java:S1068"'Remove this unused "TAG" private field.(õœú¯şÿÿÿÿ

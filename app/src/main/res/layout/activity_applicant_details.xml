@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ApplicantDetails">
+
+    <include layout="@layout/header" />
+
+    <!-- title bar    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="4dp"
+            android:layout_gravity="center"
+            android:text="Applicant Details"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_bar_text"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:src="@drawable/logout" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Applicant Name as per Aadhaar"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/apllicateName"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+                android:background="@drawable/et_border_disable"
+                android:enabled="false"
+                android:inputType="number"
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="Aadhaar number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/aadhaarNumber"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+                android:background="@drawable/et_border_disable"
+                android:enabled="false"
+                android:inputType="number"
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Date of Birth"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/regular14sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="180dp"
+                    android:text="RCType"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/regular14sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/DOB"
+                    android:layout_width="241dp"
+                    android:layout_height="46dp"
+                    android:autofillHints="ID"
+                    android:background="@drawable/et_border_disable"
+                    android:enabled="false"
+                    android:padding="6dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/RCType"
+                    android:layout_width="118dp"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="10dp"
+                    android:autofillHints="ID"
+                    android:background="@drawable/et_border_disable"
+                    android:enabled="false"
+                    android:padding="6dp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Gender"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/regular14sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Category"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/regular14sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/gender"
+                    android:layout_width="160dp"
+                    android:layout_height="46dp"
+                    android:autofillHints="ID"
+                    android:background="@drawable/et_border_disable"
+                    android:enabled="false"
+                    android:padding="6dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/category"
+                    android:layout_width="206dp"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="10dp"
+                    android:autofillHints="ID"
+                    android:background="@drawable/et_border_disable"
+                    android:enabled="false"
+                    android:padding="6dp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="State"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+                android:background="@drawable/et_border_disable"
+                android:enabled="false"
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="Phone Number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+
+                android:background="@drawable/edit_text_border"
+                android:inputType="phone"
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/otpvalue"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:hint="OTP"
+                android:visibility="gone"
+                android:background="@drawable/et_border_disable"
+
+                android:inputType="phone"
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnOTP"
+                android:layout_width="120dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="right"
+                android:background="@drawable/btn_blue_round"
+                android:text="Send OTP"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/regular14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="Bank Name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/bankName"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+                android:background="@drawable/edit_text_border"
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="Bank Branch"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/bankBranch"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+                android:background="@drawable/edit_text_border"
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="IFSC Code"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/ifsc"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+                android:background="@drawable/edit_text_border"
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="Bank Account Number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/bankAccountNumber"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+                android:background="@drawable/edit_text_border"
+
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="Re-enter Bank Account Number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/renterBankAccount"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+                android:background="@drawable/edit_text_border"
+
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnValidate"
+                android:layout_width="160dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_blue_round"
+                android:text="Validate"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/regular14sp" />
+
+            <ImageView
+                android:id="@+id/ivBackBtn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/back_arrow"
+                app:tint="@color/blue" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+
+w
+java:S1488$"bImmediately return this expression instead of assigning it to the temporary variable "viewHolder".(Ûóşx
+n
+java:S11047"SMake husName a static final constant or non-public and provide accessors if needed.(¡÷Ä€øÿÿÿÿ
+m
+java:S11047"RMake husAge a static final constant or non-public and provide accessors if needed.(¡÷Ä€øÿÿÿÿ
+m
+java:S11047"RMake husDob a static final constant or non-public and provide accessors if needed.(¡÷Ä€øÿÿÿÿ
+p
+java:S11047"UMake husGender a static final constant or non-public and provide accessors if needed.(¡÷Ä€øÿÿÿÿ
+q
+java:S11048"VMake lldelivery a static final constant or non-public and provide accessors if needed.(Ø¡Ùâúÿÿÿÿ
+o
+java:S11049"TMake checkBox a static final constant or non-public and provide accessors if needed.(÷Ç™ûÿÿÿÿ
+†
+java:S4165"kRemove this useless assignment; "isForDistrict" already holds the assigned value along all execution paths.(÷Œ”úÿÿÿÿ
+h	java:S116"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õœú¯şÿÿÿÿ
+^
+java:S16597"CDeclare "husAge" and all following declarations on a separate line.(¡÷Ä€øÿÿÿÿ
+X	java:S125="<This block of commented-out lines of code should be removed.(ÍËàœ8Şìêë1
+J
+java:S1656"/Remove or correct this useless self-assignment.(÷Œ”úÿÿÿÿ
+@
+java:S1068"+Remove this unused "context" private field.(êİç
+B
+java:S1068"'Remove this unused "TAG" private field.(õœú¯şÿÿÿÿ

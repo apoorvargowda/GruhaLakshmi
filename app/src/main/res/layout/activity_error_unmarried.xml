@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ErrorUnmarried">
+    <include layout="@layout/header"/>
+
+    <!-- title bar    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="4dp"
+            android:text="Application Status"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_bar_text"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="3dp"
+            android:src="@drawable/logout" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:padding="40dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="301dp"
+            android:background="@drawable/black_sqr"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="40dp"
+                android:text="Applicant
+ is not meeting the criteria
+to apply for the scheme"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="40dp"
+                android:text="
+Reason :
+
+Woman is Unmarried"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="OK"
+            android:textAllCaps="false"
+            android:textSize="@dimen/regular14sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_blue_round"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="40dp"
+        android:src="@drawable/back_arrow"
+        app:tint="@color/blue" />
+
+
+
+
+</LinearLayout>

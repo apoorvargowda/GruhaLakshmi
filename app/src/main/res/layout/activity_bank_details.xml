@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ApplicantDetails">
+
+    <include layout="@layout/header" />
+
+    <!-- title bar    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="4dp"
+            android:layout_gravity="center"
+            android:text="@string/applicant_bank_details"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_bar_text"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:src="@drawable/logout" />
+    </RelativeLayout>
+
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="18dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="@string/ifsc_code"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:weightSum="2"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/ifscTxt"
+                android:layout_width="0dp"
+                android:inputType="textCapCharacters"
+                android:layout_weight="1.5"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+                android:background="@drawable/edit_text_border"
+                android:padding="6dp"
+                android:textColor="@color/black" />
+             <androidx.appcompat.widget.AppCompatButton
+                 android:id="@+id/fetchIFSC"
+                 android:text="@string/fetch"
+                 android:layout_weight="0.5"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"/>
+         </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="@string/bank_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/bankNametxt"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+                android:enabled ="false"
+                android:background="@drawable/edit_text_border"
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="@string/bank_branch"
+                android:enabled ="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/bankbranchTxt"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+                android:background="@drawable/edit_text_border"
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="@string/bank_account_number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/bankAccountNumber"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+                android:background="@drawable/edit_text_border"
+                android:inputType="number"
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="@string/re_enter_bank_account_number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/regular14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/renterBankAccount"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="ID"
+                android:background="@drawable/edit_text_border"
+                android:inputType="number"
+                android:padding="6dp"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnValidate"
+                android:layout_width="160dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/btn_blue_round"
+                android:text="@string/next"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/regular14sp" />
+
+         <ImageView
+             android:id="@+id/ivBackBtn"
+             android:layout_width="25dp"
+             android:layout_height="25dp"
+             android:layout_margin="20dp"
+             android:src="@drawable/back_arrow"
+             app:tint="@color/blue" />
+     </LinearLayout>
+
+</LinearLayout>

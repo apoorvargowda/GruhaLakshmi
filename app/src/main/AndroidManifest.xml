@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/gruhahome"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.GruhaLakshmi"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:name=".BaseApplication"
+        tools:targetApi="31">
+      <activity
+            android:name="com.gov.gruhalakshmi.SuccessfulVerification"
+            android:exported="false" />
+       <activity
+            android:name="com.gov.gruhalakshmi.SelectHusband"
+            android:exported="false" />
+        <activity
+            android:name="com.gov.gruhalakshmi.ApplicantDetails"
+            android:exported="false" />
+        <activity
+            android:name="com.gov.gruhalakshmi.Declaration"
+            android:exported="false" />
+        <activity
+            android:name="com.gov.gruhalakshmi.EnterAadhaar"
+            android:exported="false" />
+        <activity
+            android:name="com.gov.gruhalakshmi.Dashboard"
+            android:exported="false" />
+        <activity
+            android:name="com.gov.gruhalakshmi.OtpScreen"
+            android:exported="false" />
+        <activity
+            android:name="com.gov.gruhalakshmi.enroller"
+            android:exported="false" />
+        <activity
+            android:name="com.gov.gruhalakshmi.prathinidhi_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".EnterRationNumber"
+            android:exported="false" />
+        <activity
+            android:name=".BankDetails"
+            android:exported="false" />
+        <activity
+            android:name=".UploadFiles"
+            android:exported="false" />
+        <activity
+            android:name=".PendingApplications"
+            android:exported="false" />
+
+
+        <activity
+            android:name="com.gov.gruhalakshmi.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gov.gruhalakshmi.MainActivity"
+            android:exported="true" />
+
+
+
+    </application>
+
+</manifest>

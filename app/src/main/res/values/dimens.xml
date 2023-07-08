@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_bar_text">16sp</dimen>
+    <dimen name="regular14sp">14sp</dimen>
+    <dimen name="regular18_sp">18sp</dimen>
+    <dimen name="regular10_sp">10sp</dimen>
+</resources>

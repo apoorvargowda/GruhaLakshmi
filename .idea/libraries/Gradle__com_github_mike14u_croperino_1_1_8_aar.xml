@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.mike14u:croperino:1.1.8@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../Newcode/gruhalakshmi-dev/.gradle/caches/transforms-3/63487577d2df8ef2215631966430cf7a/transformed/jetified-croperino-1.1.8/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../Newcode/gruhalakshmi-dev/.gradle/caches/transforms-3/63487577d2df8ef2215631966430cf7a/transformed/jetified-croperino-1.1.8/res" />
+      <root url="file://$PROJECT_DIR$/../../../Newcode/gruhalakshmi-dev/.gradle/caches/transforms-3/63487577d2df8ef2215631966430cf7a/transformed/jetified-croperino-1.1.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

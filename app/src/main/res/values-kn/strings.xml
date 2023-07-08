@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">ಗೃಹ ಲಕ್ಷ್ಮಿ</string>
+    <string name="govt_of_karnataka">ಕರ್ನಾಟಕ ಸರ್ಕಾರ</string>
+    <string name="gruhalakshmi">ಗೃಹ ಲಕ್ಷ್ಮಿ</string>
+    <string name="log_in">ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="refractionist_id">ಸಿಡಿಪಿಓ ಐಡಿ</string>
+    <string name="password">ಪಾಸ್ವರ್ಡ್</string>
+    <string name="forgot_password_new_user">ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ</string>
+    <string name="mobile_number">ಮೊಬೈಲ್ ಸಂಖ್ಯೆ</string>
+    <string name="send_otp">OTP ಕಳುಹಿಸಿ</string>
+    <string name="logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="register_school">ಪ್ರಜಾ ಪ್ರತಿನಿಧಿ ಸೇರಿಸಿ</string>
+    <string name="New_Application">ಹೊಸ ಅರ್ಜಿ</string>
+    <string name="Application_applied">	ಅರ್ಜಿ ಸಲ್ಲಿಸಲಾಗಿದೆ</string>
+    <string name="select_school">ತಾಲೂಕ ಆಯ್ಕೆ ಮಾಡಿ</string>
+
+    <string name="dec_text_1">ನಾನು ಒದಗಿಸಿರುವ ಎಲ್ಲ ವಿವರಗಳು ನನ್ನ ತಿಳುವಳಿಕೆ ಸಮರ್ಕಪವಾಗಿವೆ. ನನ್ನ ಕುಟಾಂಬ/ಮನೆಯಲ್ಲಿ ನಾನೇ ಮನೆ ಒಡತಿಯಾಗಿರುತ್ತೇನೆ. ನಾನು ಒದಗಿಸಿರುವ ಮಾಹಿತಿಯು ಯಾವುದೇ ಕಾಲದಲ್ಲಿ ಸುಳ್ಳೆಂದು ಕಂಡು ಬಂದರೆ ಕಾನೂನಿನ ಕ್ರಮಕ್ಕೆ ಒಳಗಾಗಲು ಹಾಗೂ ನಾನು ಪಡೆದ ಗೃಹ ಲಕ್ಷ್ಮಿ ಯೇಜನೆ ಸೌಲಭ್ಯವನ್ನು ಸರ್ಕಾರಕ್ಕೆ ಮರು ಪಾವತಿಸಲು ಬದ್ಧಳಾಗಿರುತ್ತೇನೆಂದು ಈ ಮೂಲಕ ದೃಢೀಕರಿಸುತ್ತೇನೆ. ನನ್ನ ಆಧಾರ್ ಮಾಹಿತಿ (Identity Information) ಹಾಗೂ ಇತರ ಮಾಹಿತಿಗಳನ್ನು ಯು.ಐ.ಡಿ.ಎ.ಐ  ನೊಂದಿಗೆ e-KYC ಅಥವಾ ಹೌದು/ಇಲ್ಲ ದೃಢೀಕರಣಕ್ಕೆ (Yes / No Authentication) ಸರ್ಕಾರ ಬಳಸಲು ನನ್ನ ಒಪ್ಪಿಗೆ ಇದೆ. ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಕಲ್ಯಾಣ ಇಲಾಖೆಯು ನನ್ನ ವಿವರಗಳನ್ನು ದತ್ತಾಂಶದಲ್ಲಿ ನಮೂದು (SEED) ಮಾಡಲು ಹಾಗೂ ಡಿ.ಬಿ.ಟಿ ಮೂಲಕ ಹಣ ಸಂದಾಯ ಮಾಡಲು ಮತ್ತಿ ಸರ್ಕಾರದ ವಿವಿಧ ಇಲಾಖ್ಯಗಳ ಕಲ್ಯಾಣ ಯೇಜನೆಗಳಲ್ಲಿ ಬಳಸಲು ನನ್ನ ಸಹಮತಿ ನೀಡುತ್ತೇನೆ.</string>
+    <string name="dec_text_2">ನನ್ನ ಆಧಾರ್ ಮಾಹಿತಿ (Identity Information) ಹಾಗೂ ಇತರ ಮಾಹಿತಿಗಳನ್ನು ಯು.ಐ.ಡಿ.ಎ.ಐ  ನೊಂದಿಗೆ e-KYC ಅಥವಾ ಹೌದು/ಇಲ್ಲ ದೃಢೀಕರಣಕ್ಕೆ (Yes / No Authentication) ಸರ್ಕಾರ ಬಳಸಲು ನನ್ನ ಒಪ್ಪಿಗೆ ಇದೆ. ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಕಲ್ಯಾಣ ಇಲಾಖೆಯು ನನ್ನ ವಿವರಗಳನ್ನು ದತ್ತಾಂಶದಲ್ಲಿ ನಮೂದು (SEED) ಮಾಡಲು ಹಾಗೂ ಡಿ.ಬಿ.ಟಿ ಮೂಲಕ ಹಣ ಸಂದಾಯ ಮಾಡಲು ಮತ್ತಿ ಸರ್ಕಾರದ ವಿವಿಧ ಇಲಾಖ್ಯಗಳ ಕಲ್ಯಾಣ ಯೇಜನೆಗಳಲ್ಲಿ ಬಳಸಲು ನನ್ನ ಸಹಮತಿ ನೀಡುತ್ತೇನೆ.</string>
+
+    <string-array name="sph1">
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="Gender">
+        <item>ಗಂಡು</item>
+        <item>ಹೆಣ್ಣು</item>
+        <item>ಇತರರು</item>
+    </string-array>
+
+    <string-array name="caste">
+        <item>ವರ್ಗ ಆಯ್ಕೆ ಮಾಡಿ</item>
+        <item>ಎಸ್.ಟಿ.</item>
+        <item>ಎಸ್.ಸಿ.</item>
+        <item>ಓಬಿಸಿ</item>
+        <item>ಅಲ್ಪಸಂಖ್ಯಾತರು</item>
+        <item>ಇತರೆ</item>
+    </string-array>
+
+    <string-array name="ChooseRole">
+        <item>ಸಿಡಿಪಿಓ</item>
+        <item>ಪ್ರಜಾ ಪ್ರತಿನಿಧಿ</item>
+    </string-array>
+
+    <string name="eng">English</string>
+    <string name="kan">ಕನ್ನಡ</string>
+
+    <string-array name="scheme_elegi">
+        <item>ಹೌದು</item>
+        <item>ಇಲ್ಲ</item>
+    </string-array>
+    <string name="title_activity_ration_list">ಪಡಿತರ ಪಟ್ಟಿ</string>
+    <string name="tax_gst">ದಯವಿಟ್ಟು ಗಮನಿಸಿ, ಆದಾಯ ತೆರಿಗೆ ಪಾವತಿದಾರರಾಗಿದ್ದಲ್ಲಿ ಮತ್ತು ಜಿ.ಎಸ್.ಟಿ. ತೆರಿಗೆ ರಿಟರ್ನ್‌ ಸಲ್ಲಿಸುವವರಾಗಿದ್ದಲ್ಲಿ, ನೀವು ಯೋಜನೆಯ ಮಾರ್ಗಸೂಚಿಗಳನ್ವಯ ಅರ್ಹರಾಗಿರುವುದಿಲ್ಲ</string>
+    <string name="personal_details">ವೈಯಕ್ತಿಕ ವಿವರಗಳು</string>
+    <string name="enter_ration_card_number">ಪಡಿತರ ಚೀಟಿ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ</string>
+    <string name="category">ವರ್ಗ</string>
+    <string name="enter_mobile_number">ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="bank_account_details_of_the_female_head_of_the_family_to_receive_the_scheme_amount">ಹಣಪಾವತಿ ಮಾಡಬೇಕಾದ ಮನೆಯ ಯಜಮಾನಿಯ ಬ್ಯಾಂಕ್‌ ಖಾತೆ ವಿವರಗಳು</string>
+    <string name="aadhaar_linked_bank">ಆಧಾರ್ ಲಿಂಕ್ ಮಾಡಿದ ಬ್ಯಾಂಕ್</string>
+    <string name="other_bank">ಇತರ ಬ್ಯಾಂಕ್</string>
+    <string name="next">ಮುಂದೆ</string>
+    <string name="login">ಲಾಗಿನ್</string>
+    <string name="enter_otp">OTP ಸಂಖ್ಯೆ ನಮೂದಿಸಿ</string>
+    <string name="haven_t_received_otp">OTP ಸ್ವೀಕರಿಸಿಲ್ಲ? </string>
+    <string name="resend_otp">OTP ಮರುಕಳುಹಿಸಿ</string>
+    <string name="applicant_bank_details">ಅರ್ಜಿದಾರರ ಬ್ಯಾಂಕ್ ವಿವರಗಳು</string>
+    <string name="ifsc_code">ಐಎಫ್ಎಸ್ಸಿ ಕೋಡ್</string>
+    <string name="fetch">ಪಡೆಯಿರಿ</string>
+    <string name="bank_name">ಬ್ಯಾಂಕ್ ಹೆಸರು</string>
+    <string name="bank_branch">ಬ್ಯಾಂಕ್ ಶಾಖೆ</string>
+    <string name="bank_account_number">ಬ್ಯಾಂಕ್ ಖಾತೆ ಸಂಖ್ಯೆ</string>
+    <string name="re_enter_bank_account_number">ಬ್ಯಾಂಕ್ ಖಾತೆ ಸಂಖ್ಯೆಯನ್ನು ಮರುನಮೂದಿಸಿ</string>
+    <string name="dashboard">ಡ್ಯಾಶ್‌ಬೋರ್ಡ್</string>
+    <string name="new_application">ಹೊಸ ಅರ್ಜಿ</string>
+    <string name="ready_for_submission">ಸಲ್ಲಿಕೆಗೆ ಸಿದ್ಧವಾಗಿದೆ</string>
+    <string name="husband_details_of_the_head_of_the_family">ಮನೆಯ ಯಜಮಾನಿಯ ಗಂಡನ ವಿವರಗಳು</string>
+    <string name="unmarried">ಅವಿವಾಹಿತ</string>
+    <string name="seperated">ಪತಿ ಬೇರ್ಪಟ್ಟರು</string>
+    <string name="deceased">ಪತಿ ಮೃತನಾದ</string>
+    <string name="add_aadhaar_number_and_name">ಆಧಾರ್ ಸಂಖ್ಯೆ ಮತ್ತು ಹೆಸರನ್ನು ಸೇರಿಸಿ</string>
+    <string name="husband_name_as_per_aadhaar">ಆಧಾರ್ ಪ್ರಕಾರ ಗಂಡನ ಹೆಸರು</string>
+    <string name="aadhaar_number">ಆಧಾರ್ ಸಂಖ್ಯೆ</string>
+    <string name="aadhar_copy_of_head_of_family">ಮನೆಯ ಯಜಮಾನಿಯ ಆಧಾರ್ ಪ್ರತಿ</string>
+    <string name="ration_card_copy">ಪಡಿತರ ಚೀಟಿ ಪ್ರತಿ</string>
+    <string name="upload_files">ಫೈಲ್ಗಳನ್ನು ಅಪ್ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="bank_passbook_copy">ಬ್ಯಾಂಕ್ ಪಾಸ್ ಬುಕ್ ಪ್ರತಿ</string>
+    <string name="aadhar_copy_of_husband">ಗಂಡನ ಆಧಾರ್ ಪ್ರತಿ</string>
+    <string name="declaration">ಸವಯಂ ಘೋಷಣೆ</string>
+    <string name="_1_i_and_my_husband_are_paying_income_tax">1.ನಾನು ಮತ್ತು ನನ್ನ ಪತಿ ಆದಾಯ ತೆರಿಗೆ ಪಾವತಿದಾರರಾಗಿರುತ್ತೇವೆ</string>
+    <string name="yes">ಹೌದು</string>
+    <string name="no">ಇಲ್ಲ</string>
+    <string name="_2_i_and_my_husband_are_filing_gst_returns">2.ನಾನು ಮತ್ತು ನನ್ನ ಪತಿ ಜಿಎಸ್ಟಿ ಪಾವತಿದಾರರಾಗಿರುತ್ತೇವೆ</string>
+    <string name="submit">ಸಲ್ಲಿಸಿ</string>
+    <string name="ration_card_number">ಪಡಿತರ ಚೀಟಿ ಸಂಖ್ಯೆ</string>
+    <string name="application_status">ಅರ್ಜಿ ಸ್ಥಿತಿ </string>
+    <string name="ekyc_of_husband">ಗಂಡನ eKYC</string>
+    <string name="complete_ekyc">ಸಂಪೂರ್ಣ eKYC</string>
+    <string name="verify">ಪರಿಶೀಲಿಸಿ</string>
+    <string name="applicant_photo">ಅರ್ಜಿದಾರರ ಫೋಟೋ</string>
+    <string name="invalid_RC">ಅಮಾನ್ಯ ಪಡಿತರ ಚೀಟಿ ಸಂಖ್ಯೆ, ದಯವಿಟ್ಟು ಸರಿಯಾದ ಪಡಿತರ ಚೀಟಿ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="rc_notverified">ಪಡಿತರ ಚೀಟಿ ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ, ದಯವಿಟ್ಟು ಪರಿಶೀಲಿಸಿ ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ</string>
+    <string name="or">(ಅಥವಾ)</string>
+    <string name="invalidMobile">ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ತಪ್ಪಾಗಿದೆ</string>
+</resources>
